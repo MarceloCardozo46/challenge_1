@@ -141,14 +141,14 @@ enviarTextDesencriptado.onclick = desencriptar;
 // Copiar
 
 
-// const copy = () =>{
-//     let mensajes = document.getElementById("textResultado")
+const copy = () =>{
+    let mensajes = document.getElementById("textResultado")
     
-//     mensajes.select();
-//     document.execCommand('copy');
-//     alert('el texto fue copiado')
-// }
+    mensajes.select();
+    document.execCommand('copy');
+    alert('el texto fue copiado')
+}
 
-// let copyPaste = document.getElementById('copiarText');
+let copyPaste = document.getElementById('copiarText');
 
-// copyPaste.onclick = copy;
+copyPaste.onclick = copy;
